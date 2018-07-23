@@ -1,4 +1,4 @@
-import webpack from 'webpack';
+const webpack = require ('webpack');
 
 module.exports = {
   entry: ['./src/index.js'],
@@ -11,10 +11,11 @@ module.exports = {
     loaders: [
       {
         exclude: /node_modules/,
-        loader: 'babel',
-        query: {
-          presets: ['react', 'es2015', 'stage-1'],
-        },
+        test: /\.js$/,
+        loader: 'babel-loader',
+        // query: {
+        //   presets: ['react', 'es2015', 'stage-1'],
+        // },
       },
     ],
     rules: [
