@@ -4,6 +4,10 @@ npm-debug.log
 .DS_Store
 *.js text eol=lf
 
+#Ignore API Keys File
+apiKeys.js
+
 # IntelliJ
 *.iml
 /.idea
+
