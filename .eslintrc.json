@@ -4,7 +4,7 @@
         "es6": true
     },
     "extends": [
-        "airbnb-base"
+        "airbnb"
     ],
     "parserOptions": {
         "ecmaFeatures": {
@@ -17,18 +17,6 @@
         "react"
     ],
     "rules": {
-        "indent": [
-            "error",
-            "space"
-        ],
-        "linebreak-style": [0,"windows"],
-        "quotes": [
-            "error",
-            "single"
-        ],
-        "semi": [
-            "error",
-            "always"
-        ]
+        "linebreak-style": 0       
     }
 }
